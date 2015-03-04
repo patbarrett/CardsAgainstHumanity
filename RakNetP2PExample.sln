@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RakNetP2PExample", "RakNetP2PExample\RakNetP2PExample.vcxproj", "{9A55E246-DC74-4967-B980-08A801E94979}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameExample", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{8F832121-D751-4D8E-B820-47323048A965}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A55E246-DC74-4967-B980-08A801E94979}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A55E246-DC74-4967-B980-08A801E94979}.Debug|Win32.Build.0 = Debug|Win32
+		{9A55E246-DC74-4967-B980-08A801E94979}.Release|Win32.ActiveCfg = Release|Win32
+		{9A55E246-DC74-4967-B980-08A801E94979}.Release|Win32.Build.0 = Release|Win32
+		{8F832121-D751-4D8E-B820-47323048A965}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F832121-D751-4D8E-B820-47323048A965}.Debug|Win32.Build.0 = Debug|Win32
+		{8F832121-D751-4D8E-B820-47323048A965}.Release|Win32.ActiveCfg = Release|Win32
+		{8F832121-D751-4D8E-B820-47323048A965}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

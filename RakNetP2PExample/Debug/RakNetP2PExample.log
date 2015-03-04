@@ -1,0 +1,24 @@
+﻿Build started 2/26/2015 11:26:30 AM.
+     1>Project "C:\Users\Patrick\Desktop\CARDSmore guessing gameUSE FOR CARDS\RakNetP2PExample\RakNetP2PExample\RakNetP2PExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt NetworkHelper.cpp
+         NetworkHelper.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Patrick\Desktop\CARDSmore guessing gameUSE FOR CARDS\RakNetP2PExample\Debug\RakNetP2PExample.lib" RakNet_VS2008_DLL_Debug_Win32.lib ws2_32.lib /NOLOGO Debug\NetworkComponent.obj
+         Debug\NetworkHelper.obj
+     1>ws2_32.lib(WS2_32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>ws2_32.lib(WS2_32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>NetworkHelper.obj : warning LNK4006: "public: __thiscall RakNet::AddressOrGUID::AddressOrGUID(struct RakNet::SystemAddress const &)" (??0AddressOrGUID@RakNet@@QAE@ABUSystemAddress@1@@Z) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>NetworkHelper.obj : warning LNK4006: "public: __thiscall RakNet::RakNetGUID::RakNetGUID(unsigned __int64)" (??0RakNetGUID@RakNet@@QAE@_K@Z) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>NetworkHelper.obj : warning LNK4006: "public: struct RakNet::RakNetGUID & __thiscall RakNet::RakNetGUID::operator=(struct RakNet::RakNetGUID const &)" (??4RakNetGUID@RakNet@@QAEAAU01@ABU01@@Z) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>NetworkHelper.obj : warning LNK4006: "public: char const * __thiscall RakNet::RakString::C_String(void)const " (?C_String@RakString@RakNet@@QBEPBDXZ) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>NetworkHelper.obj : warning LNK4006: "public: static bool __cdecl RakNet::BitStream::DoEndianSwap(void)" (?DoEndianSwap@BitStream@RakNet@@SA_NXZ) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>NetworkHelper.obj : warning LNK4006: "public: static bool __cdecl RakNet::BitStream::IsNetworkOrder(void)" (?IsNetworkOrder@BitStream@RakNet@@SA_NXZ) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>NetworkHelper.obj : warning LNK4006: "public: void __thiscall RakNet::BitStream::Write(char * const)" (?Write@BitStream@RakNet@@QAEXQAD@Z) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+     1>NetworkHelper.obj : warning LNK4006: "public: void __thiscall RakNet::BitStream::Write(char const * const)" (?Write@BitStream@RakNet@@QAEXQBD@Z) already defined in RakNet_VS2008_DLL_Debug_Win32.lib(RakNet_VS2008_DLL_Debug_Win32.dll); second definition ignored
+         RakNetP2PExample.vcxproj -> C:\Users\Patrick\Desktop\CARDSmore guessing gameUSE FOR CARDS\RakNetP2PExample\Debug\RakNetP2PExample.lib
+     1>Done Building Project "C:\Users\Patrick\Desktop\CARDSmore guessing gameUSE FOR CARDS\RakNetP2PExample\RakNetP2PExample\RakNetP2PExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.44
